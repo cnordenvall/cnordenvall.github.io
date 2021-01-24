@@ -66,9 +66,10 @@
       };
 
       function NewResult(res) {
-        console.log("Resultat: " + res);
+        document.getElementById("score").innerHTML = res;
       }
       document.body.appendChild(script);
     </script>
+  <p id"scoretext>Score: </p><p id="score"></p>
   </body>
 </html>
